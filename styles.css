@@ -51,3 +51,31 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+.w {
+  background-image: url("./images/crash.png");
+}
+
+.a {
+  background-image: url("./images/snare.png");
+}
+
+.s {
+  background-image: url("./images/tom1.png");
+}
+
+.d {
+  background-image: url("./images/tom2.png");
+}
+
+.j {
+  background-image: url("./images/tom3.png");
+}
+
+.k {
+  background-image: url("./images/tom4.png");
+}
+
+.l {
+  background-image: url("./images/kick.png");
+}
