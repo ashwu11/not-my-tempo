@@ -56,11 +56,11 @@ playPattern.addEventListener("click", function () {
     if (pattern.length == 0) alert("Tempo has not been set!");
 
     // TODO play sounds in order...
-    for (let i = 0; i < pattern.length; i++) {
-        setTimeout(() => {
-            playSound(pattern[i])
-        }, 250)
-    }
+    // for (let i = 0; i < pattern.length; i++) {
+    //     setTimeout(() => {
+    //         playSound(pattern[i])
+    //     }, 250)
+    // }
     
     attempt = [];
 });
