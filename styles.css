@@ -11,10 +11,11 @@ h1 {
 }
 
 p {
-  font-size: 1rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
   color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 1px 0 #fff7fb;
 }
 
 footer {
@@ -90,10 +91,9 @@ footer {
   font-size: 2rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
   background-color: #404B69;
   border-radius: 10px;
-  padding: 10px;
-  margin: 50px;
+  padding: 15px;
+  margin: 30px;
   margin-top: 10px;
 }

@@ -36,13 +36,13 @@ for (let i = 0; i < numDrumButtons; i++) {
 setPattern.addEventListener("click", function () {
     if (active) {
         setPattern.innerHTML = "tempo set!";
-        
+
         setTimeout(() => {
             setPattern.innerHTML = "reset tempo";
-        }, 2000);
+        }, 1500);
 
     } else {
-        title.innerHTML = "🥁 Not my tempo!";
+        title.innerHTML = "🥁 Not my tempo >:[";
         setPattern.innerHTML = "finish";
         pattern = [];
         attempt = [];
@@ -77,7 +77,7 @@ function buildPattern(key) {
 
 function winScenario() {
     if (checkAttempt(attempt)) {
-        title.innerHTML = "Welcome to the band 🥁"
+        title.innerHTML = "🥁 Welcome to the band! "
     }
 }
 
