@@ -20,7 +20,10 @@ Players are able to set a tempo for others to try... if they get it right, perha
 
 
 ### UI 
-<img width="1440" alt="Screenshot 2024-10-06 at 12 36 44 AM" src="https://github.com/user-attachments/assets/c67608ac-41ab-4ee3-8e82-860552b02477">
+| Before | After  |
+| ------ | ------ |
+|<img width="1440" alt="Screenshot 2024-10-06 at 12 36 44 AM" src="https://github.com/user-attachments/assets/c67608ac-41ab-4ee3-8e82-860552b02477"> | <img width="1440" alt="Screenshot 2024-10-06 at 12 50 11 AM" src="https://github.com/user-attachments/assets/6f20bcc9-d561-4b19-b0f2-b410ff16a219"> |
+
 
 
 ## Future Directions 
