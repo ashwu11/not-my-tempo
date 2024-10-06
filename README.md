@@ -7,7 +7,7 @@ Players are able to set a tempo for others to try... if they get it right, perha
 🎧 Turn up the volume for the best gaming experience <br>
 ⌨️ Built Using: JavaScript, HTML, CSS <br><br>
 
-## Drum Controls 🎮
+### Drum Controls 🎮
 | Key | Drum     |
 | --- | ----     |
 |  W  | crash    |
@@ -19,7 +19,7 @@ Players are able to set a tempo for others to try... if they get it right, perha
 |  S  | kickBass |
 
 
-## UI 
+### UI 
 <img width="1440" alt="Screenshot 2024-10-06 at 12 36 44 AM" src="https://github.com/user-attachments/assets/c67608ac-41ab-4ee3-8e82-860552b02477">
 
 
