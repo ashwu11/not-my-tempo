@@ -15,6 +15,8 @@ Players are able to set a tempo for others to try... if they get it right, perha
  <br>
  
 ### Drum Controls 🎮
+- Players can also control by click <br><br>
+
 | Key | Drum     |
 | --- | ----     |
 |  W  | crash    |
@@ -24,7 +26,8 @@ Players are able to set a tempo for others to try... if they get it right, perha
 |  J  | tom 3    |
 |  K  | tom 4    |
 |  L  | kickBass |
-Players can also control by click <br><br>
+
+<br>
  
 ### Future Directions 
 - Implement a hint functionality that allows players to listen to the set pattern
