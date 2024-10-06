@@ -9,9 +9,18 @@ const crash = new Audio("./sounds/crash.mp3");
 const kickBass = new Audio("./sounds/kick-bass.mp3");
 
 // play drums using keyboard
-document.addEventListener("keydown", function(e) {
+document.addEventListener("keydown", (e) => {
     playSound(e.key);
-})
+    animateButton(e.key);
+});
+
+// play drums using clicks
+for (let i = 0; i < numDrumButtons; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+        playSound(this.innerHTML);
+        animateButton(this.innerHTML);
+    });
+}
 
 function playSound(key) {
     switch (key) {
@@ -42,11 +51,12 @@ function playSound(key) {
     }
 }
 
-// play drums using clicks
-for (var i = 0; i < numDrumButtons; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-        playSound(this.innerHTML);
-    });
+function animateButton(key) {
+    let button = document.querySelector("." + key);
+    button.classList.add("pressed");
+    setTimeout(() => {
+        button.classList.remove("pressed");
+    }, 250);
 }
 
 
