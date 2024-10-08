@@ -1,3 +1,4 @@
+const click = new Audio("./sounds/click.mp3");
 const tom1 = new Audio("./sounds/tom-1.mp3");
 const tom2 = new Audio("./sounds/tom-2.mp3");
 const tom3 = new Audio("./sounds/tom-3.mp3");
@@ -13,6 +14,7 @@ const playPattern = document.getElementById("play");
 let pattern = [];
 let attempt = [];
 let active = false;
+click.volume = 0.5;
 
 // play drums using keyboard
 document.addEventListener("keydown", (e) => {
@@ -34,6 +36,8 @@ for (let i = 0; i < numDrumButtons; i++) {
 
 // set the pattern
 setPattern.addEventListener("click", function () {
+    click.play();
+
     if (active) {
         setPattern.innerHTML = "tempo set!";
 
@@ -53,6 +57,8 @@ setPattern.addEventListener("click", function () {
 
 // play the set pattern out loud
 playPattern.addEventListener("click", function () {
+    click.play();
+
     if (pattern.length == 0) alert("Tempo has not been set!");
 
     // TODO play sounds in order...
@@ -71,6 +77,9 @@ function buildPattern(key) {
     if (active) {
         pattern.push(key);
     } else {
+        // TODO if attempt goes over pattern length
+        // user should be able to see drum buttons shake to know they were wrong
+        // and reset attempt 
         attempt.push(key);
     }
 }
